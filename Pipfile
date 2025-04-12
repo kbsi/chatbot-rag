@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+sentence-transformers = "*"
+chromadb = "*"
+pydantic = "*"
+langchain-openai = "*"
+jsonlines = "*"
+langchain-community = "*"
+streamlit = "*"
+langchain-huggingface = "*"
+langchain-chroma = "*"
+flask = "*"
+flask-cors = "*"
+hf-xet = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.12"
